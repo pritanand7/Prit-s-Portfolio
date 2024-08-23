@@ -1,0 +1,18 @@
+.navbar-link {
+    font-size: var(--fs-8);
+    padding: 20px 7px;
+    color: #ffffff !important; /* Change the color as per your design */
+    text-decoration: none;
+  }
+  
+  .navbar-link:hover {
+    color: #f7da48; /* Change the hover color */
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  /* Optional: Add styles for the active link */
+  .navbar-link.active {
+    color: #fcfcfc; /* Change the active link color */
+  }
+ 
+  
