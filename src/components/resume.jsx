@@ -6,7 +6,11 @@ import { faChrome} from '@fortawesome/free-brands-svg-icons';
 function Resume() {
   return (
     
-  <><header>
+  <>
+  <article className='about active'>
+
+  
+  <header>
       <h2 className="h2 article-title">Resume</h2>
       <section className="timeline">
     <div className="title-wrapper">
@@ -47,7 +51,8 @@ function Resume() {
         </h4>
         <span>JECRC University [2021 — 2024]</span>
         <p className="timeline-text">
-        Completed a comprehensive program focusing on data science and analytics, gaining expertise in data analysis, visualization, and database management.
+        Completed a comprehensive program focusing on data science and analytics, gaining expertise in 
+        data analysis, visualization, and database management.
         </p>
       </li>
       <li className="timeline-item">
@@ -124,119 +129,7 @@ function Resume() {
     </ol>
   </section>
 
-  {/* <section className="timeline">
-    <div className="title-wrapper">
-      <div className="icon-box">
-        <ion-icon name="book-outline" />
-      </div>
-      <h3 className="h3">Front-end Technologies</h3>
-    </div>
-    <ol className="timeline-list">
-      <li className="timeline-item">
-        <h4 className="h4 timeline-item-title">
-        <li>Html-CSS</li>
-        </h4>
-        <span>Advance Level</span>
-      </li>
-
-      <li className="timeline-item">
-        <h4 className="h4 timeline-item-title">
-        <li>Bootstrap</li>
-        </h4>
-        <span>Intermediate </span>
-      </li>
-
-      <li className="timeline-item">
-        <h4 className="h4 timeline-item-title">
-        <li>JQuery</li>
-        </h4>
-        <span>Advaance </span>
-      </li>
-      
-      <li className="timeline-item">
-        <h4 className="h4 timeline-item-title">
-        <li>Scss</li>
-        </h4>
-        <span>Basics</span>
-      </li>
-
-      <li className="timeline-item">
-        <h4 className="h4 timeline-item-title">
-        <li>React</li>
-        </h4>
-        <span>Intermediate </span>
-      </li>
-
-      <li className="timeline-item">
-        <h4 className="h4 timeline-item-title">
-        <li>Tailwind css</li>
-        </h4>
-        <span>Intermediate </span>
-      </li>
-      <li className="timeline-item">
-        <h4 className="h4 timeline-item-title">
-        <li>Express.js</li>
-        </h4>
-        <span>Basics</span>
-      </li>
-
-    </ol>
-  </section> */}
-
-
-
-
-
-
-
-
-
-
-  {/* <section className="skill">
-    <h3 className="h3 skills-title">My skills</h3> */}
-    {/* <ul className="skills-list content-card">
-      <li className="skills-item">
-        <div className="title-wrapper">
-          <h5 className="h5">Web design</h5>
-          <data value={80}>80%</data>
-        </div>
-        <div className="skill-progress-bg">
-          <div className="skill-progress-fill" style={{ width: "80%" }} />
-        </div>
-      </li>
-      <li className="skills-item">
-        <div className="title-wrapper">
-          <h5 className="h5">Graphic design</h5>
-          <data value={70}>70%</data>
-        </div>
-        <div className="skill-progress-bg">
-          <div className="skill-progress-fill" style={{ width: "70%" }} />
-        </div>
-      </li>
-      <li className="skills-item">
-        <div className="title-wrapper">
-          <h5 className="h5">Branding</h5>
-          <data value={90}>90%</data>
-        </div>
-        <div className="skill-progress-bg">
-          <div className="skill-progress-fill" style={{ width: "90%" }} />
-        </div>
-      </li>
-      <li className="skills-item">
-        <div className="title-wrapper">
-          <h5 className="h5">WordPress</h5>
-          <data value={50}>50%</data>
-        </div>
-        <div className="skill-progress-bg">
-          <div className="skill-progress-fill" style={{ width: "50%" }} />
-        </div>
-      </li>
-    </ul> */}
-    
-
-  {/* </section> */}
-
-
+  </article>
       </>
   );
 }

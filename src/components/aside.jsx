@@ -69,7 +69,7 @@ function Aside() {
           </div>
           <div className="contact-info">
             <p className="contact-title">Email</p>
-            <a href="mailto:richard@example.com" className="contact-link">
+            <a href="mailto:snehapritanand@gmail.com" className="contact-link">
               snehapritanand@gmail.com
             </a>
           </div>
