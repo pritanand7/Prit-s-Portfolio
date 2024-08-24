@@ -47,15 +47,14 @@ function Resume() {
         </h4>
         <span>JECRC University [2021 — 2024]</span>
         <p className="timeline-text">
-          I am pursing a BCA degree full time from an affilaite LCB College, under Guwahati University. Guwahati, Assam.
+        Completed a comprehensive program focusing on data science and analytics, gaining expertise in data analysis, visualization, and database management.
         </p>
       </li>
       <li className="timeline-item">
         <h4 className="h4 timeline-item-title">Higher Secondary</h4>
         <span>- B.V.B Vidyashram [2021]</span>
         <p className="timeline-text">
-          I have completed my Higher Secondary from a reputed school Dronacharya Academy, Barpeta Road, Assam.
-          I have secured 85% in my Higher Secondary Examination from AHSEC Board.
+        Studied core subjects in commerce, developing a strong foundation in business and economics
         </p>
       </li>
       <li className="timeline-item">
@@ -64,8 +63,7 @@ function Resume() {
         </h4>
         <span>B.C.M Sr. Sec. School [2019]</span>
         <p className="timeline-text">
-          I have completed my High School from one of the best school of North-east India Marian School.
-          I have secured 73% in my High School Examination from SEBA Board.
+        Completed foundational education with a focus on a broad range of subjects
         </p>
       </li>
     </ol>

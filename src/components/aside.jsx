@@ -21,7 +21,7 @@ function Aside() {
         <h1 className="name" title="Prit Anand">
           Prit Anand
         </h1>
-        <p className="title">Data - Science Aspirant</p>
+        <p className="title">Tech Nerd :) </p>
       
 
          
