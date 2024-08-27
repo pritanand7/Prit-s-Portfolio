@@ -17,10 +17,6 @@ function Portfolio() {
 { id: 1, title: 'Yuva Manobal', category: 'projects', img: Portfolio1, link: 'https://yuva-manobal.netlify.app'},
 { id: 2, title: 'Settlemint India Internship', category: 'achievements', img: Portfolio1, link: 'https://user-input-table.netlify.app/' },
 { id: 3, title: 'User-Input-Table', category: 'Projects', subCategory: 'html-css-js', img: Table, link: 'https://user-input-table.netlify.app/' },
-{ id: 4, title: 'User-Input-Table', category: 'Projects', subCategory: 'html-css-js', img: Table, link: 'https://user-input-table.netlify.app/' },
-{ id: 5, title: 'User-Input-Table', category: 'Projects', subCategory: 'html-css-js', img: Table, link: 'https://user-input-table.netlify.app/' },
-{ id: 6, title: 'User-Input-Table', category: 'Projects', subCategory: 'html-css-js', img: Table, link: 'https://user-input-table.netlify.app/' },
-{ id: 7, title: 'User-Input-Table', category: 'Projects', subCategory: 'html-css-js', img: Table, link: 'https://user-input-table.netlify.app/' },
 
       //React Projects
 

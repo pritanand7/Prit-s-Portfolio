@@ -4,6 +4,7 @@ import Navbar from './components/navbar';
 import About from './components/about';
 import Portfolio from './components/portfolio';
 import Resume from './components/resume';
+import Slideshow from './components/slideshow';
 function App() {
     
   let component
@@ -17,8 +18,8 @@ function App() {
     case '/portfolio':
       component = <Portfolio />
       break
-    case '/blog':  
-      component = <Blog />
+    case '/slideshow':
+      component = <Slideshow />
       break
   }
   
@@ -35,7 +36,6 @@ function App() {
     {/* <About />  
     <Resume /> 
     <Portfolio />
-    <Blog />
     <Contact /> */}
    
     </div>
