@@ -19,11 +19,11 @@ function Navbar() {
          <a href='./portfolio'>Highlights</a>
         </button>
       </li>
-      <li className="navbar-item">
+      {/* <li className="navbar-item">
         <button className="navbar-link" data-nav-link="">
          <a href='./slideshow'>Slideshow</a>
         </button>
-      </li>
+      </li> */}
       <li className="navbar-item">
         <button className="navbar-link" data-nav-link="">
           <a href='https://forms.visme.co/formsPlayer/rx7kemrn-prit-039-s-portfolio-contact-form'>Contact</a>
