@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Table from './assests/images/Table.png';
 import Portfolio1 from './assests/images/portfolio1.jpeg';
-// import Settlemint from './assests/images/Settlemint';
+import Settlemint from './assests/images/settlemint.jpg';
+import DataPlay from './assests/images/DataPlay.jpg';
 
 
 
@@ -15,8 +15,8 @@ function Portfolio() {
                                             // Front-end Projects (HTML, CSS, JS):
       
 { id: 1, title: 'Yuva Manobal', category: 'projects', img: Portfolio1, link: 'https://yuva-manobal.netlify.app'},
-{ id: 2, title: 'Settlemint India Internship', category: 'achievements', img: Portfolio1, link: 'https://user-input-table.netlify.app/' },
-{ id: 3, title: 'User-Input-Table', category: 'Projects', subCategory: 'html-css-js', img: Table, link: 'https://user-input-table.netlify.app/' },
+{ id: 2, title: 'Settlemint India Internship', category: 'achievements', img: Settlemint},
+{ id: 2, title: 'DataPlay Internship', category: 'achievements', img: DataPlay},
 
       //React Projects
 
