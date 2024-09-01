@@ -39,7 +39,7 @@ function Aside() {
           </a>
         </li>
         <li className="social-item">
-          <a href="https://github.com/pritanand7" className="social-link" target='_blank'>
+          <a href="https://www.youtube.com/@BurstTech" className="social-link" target='_blank'>
             <ion-icon name="logo-youtube" />
           </a>
         </li>
