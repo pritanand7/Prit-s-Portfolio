@@ -7,7 +7,7 @@ import DataPlay from './assests/images/DataPlay.jpg';
 
 
 
-function Portfolio() {
+function Highlights() {
   const [activeFilter, setActiveFilter] = useState('All');
 
   const projects = [
@@ -117,5 +117,5 @@ function Portfolio() {
   );
 }
 
-export default Portfolio;
+export default Highlights;
 
