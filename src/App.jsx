@@ -35,7 +35,7 @@ function App() {
     {component}
     {/* <About />  
     <Resume /> 
-    <Portfolio />
+    <Highlights />
     <Contact /> */}
    
     </div>
