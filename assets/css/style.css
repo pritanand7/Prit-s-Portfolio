@@ -54,6 +54,10 @@
     rgb(242, 239, 229)
   );
 
+  body{
+  background-image: url(/src/components/assests/images/contact.png);
+  background-size: cover;
+  } 
   /* solid */
 
   --jet: hsl(0, 0%, 22%);
