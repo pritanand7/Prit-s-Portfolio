@@ -1072,10 +1072,11 @@ main {
 }
 
 .project-item>a {
+  box-shadow: #646464 0px 0px 10px 0px;
   width: 100%;
-    padding: 10px;
-    background: #E3E1D9;
-    border-radius: 20px;
+  padding: 10px;
+  background: #E3E1D9;
+  border-radius: 20px;
 }
 
 .project-img {
