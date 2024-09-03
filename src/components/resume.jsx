@@ -1,137 +1,73 @@
-import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChrome} from '@fortawesome/free-brands-svg-icons';
+import React from 'react';
+import '../App.css';
+import { resumeData } from './data';
 
-// , faSass, faBootstrap, faGit, faNpm, faJs, faReact, faVuejs, faAngular, faFont, faFileCode, 
 function Resume() {
+  const { title, experience, education, skills } = resumeData;
+
   return (
-    
-  <>
-  <article className='about active'>
-
-  
-  <header>
-      <h2 className="h2 article-title">Resume</h2>
-      <section className="timeline">
-    <div className="title-wrapper">
-      <div className="icon-box">
-        <ion-icon name="book-outline" />
-      </div>
-      <h3 className="h3">Experience</h3>
-    </div>
-    <ol className="timeline-list">
-      <li className="timeline-item">
-        <h4 className="h4 timeline-item-title">• Project Intern <span><strong>Settlemint India</strong></span></h4>
-        <span>May — July </span>
-        <p className="timeline-text">
-        Contributed to the Jharkhand PDMC project working as a technical cell support for the agriculture sector drafting SOP, offering implementation ideas and solutions to enhance the PDMC portal, gaining valuable experience in project management and data analysis.
-        </p>
-      </li>
-      <li className="timeline-item">
-        <h4 className="h4 timeline-item-title">• Data Science Intern<span><strong>DataPlay</strong></span></h4>
-        <span>March — June</span>
-        <p className="timeline-text">
-        Developed skills in SQL, Excel, and Power BI through hands-on projects. Conducted comprehensive Customer Behaviour Analysis to identify trends and insights. Created visualizations and reports to effectively communicate findings.
-          
-        </p>
-      </li>
-    </ol>
-  </section>
-    </header><section className="timeline">
-        <div className="title-wrapper">
-          <div className="icon-box">
-            <ion-icon name="book-outline" />
-          </div>
-          <h3 className="h3">Education</h3>
-        </div>
-        <ol className="timeline-list">
-      <li className="timeline-item">
-        <h4 className="h4 timeline-item-title">
-        BCA Specialization with Data Science & Data Analytics
-        </h4>
-        <span>JECRC University [2021 — 2024]</span>
-        <p className="timeline-text">
-        Completed a comprehensive program focusing on data science and analytics, gaining expertise in 
-        data analysis, visualization, and database management.
-        </p>
-      </li>
-      <li className="timeline-item">
-        <h4 className="h4 timeline-item-title">Higher Secondary</h4>
-        <span>- B.V.B Vidyashram [2021]</span>
-        <p className="timeline-text">
-        Studied core subjects in commerce, developing a strong foundation in business and economics
-        </p>
-      </li>
-      <li className="timeline-item">
-        <h4 className="h4 timeline-item-title">
-          High school
-        </h4>
-        <span>B.C.M Sr. Sec. School [2019]</span>
-        <p className="timeline-text">
-        Completed foundational education with a focus on a broad range of subjects
-        </p>
-      </li>
-    </ol>
-
-      </section>
-
-
-
-
-  <section className="timeline">
-    <div className="title-wrapper">
-      <div className="icon-box">
-        <ion-icon name="book-outline" />
-      </div>
-      <h3 className="h3">Professional Skillset</h3>
-    </div>
-    <ol className="timeline-list">
-      <li className="timeline-item">
-        <h4 className="h4 timeline-item-title">
-        <li>Programming Language</li>
-        </h4>
-        <span>1. C++ (Intermediate) </span>
-        <span>2. SQL (Intermediate) </span>
-        <span>3. Python (Intermediate)</span>
-      </li>
-
-
-
-      <li className="timeline-item">
-        <h4 className="h4 timeline-item-title">
-        <li>Data Visualization Tools</li>
-        </h4>
-        <span>1. Power BI</span> 
-        <span>2. Tableau </span>
-        <span>3. Excel</span>
-      </li>
-      <li className="timeline-item">
-        <h4 className="h4 timeline-item-title">
-        <li>Developer Tools</li>
-        </h4>
-        <span>1. Windows OS [</span> 
-        <span>2. Android OS</span> 
-        <span>3. Linux OS </span>
-        <span>4. Git & Github</span>
-        <span>5. VS Code</span>
-        <span>6. Netlify</span>
-      </li>
-      
-      <li className="timeline-item">
-        <h4 className="h4 timeline-item-title">
-        <li>Creative Tools</li>
-        </h4>
-        <span>1. Video Editing</span> 
-        <span>2. Adobe Photoshop</span> 
-      </li>
-      
-
-    </ol>
-  </section>
-
-  </article>
-      </>
+    <>
+      <article className="about active">
+        <header>
+          <h2 className="h2 article-title">{title}</h2>
+          <section className="timeline">
+            <div className="title-wrapper">
+              <div className="icon-box">
+                <ion-icon name="book-outline" />
+              </div>
+              <h3 className="h3">Experience</h3>
+            </div>
+            <ol className="timeline-list">
+              {experience.map((item, index) => (
+                <li key={index} className="timeline-item">
+                  <h4 className="h4 timeline-item-title">
+                    {item.role} <span><strong>{item.company}</strong></span>
+                  </h4>
+                  <span>{item.duration}</span>
+                  <p className="timeline-text">{item.description}</p>
+                </li>
+              ))}
+            </ol>
+          </section>
+          <section className="timeline">
+            <div className="title-wrapper">
+              <div className="icon-box">
+                <ion-icon name="book-outline" />
+              </div>
+              <h3 className="h3">Education</h3>
+            </div>
+            <ol className="timeline-list">
+              {education.map((item, index) => (
+                <li key={index} className="timeline-item">
+                  <h4 className="h4 timeline-item-title">{item.degree}</h4>
+                  <span>{item.institution} {item.duration}</span>
+                  <p className="timeline-text">{item.description}</p>
+                </li>
+              ))}
+            </ol>
+          </section>
+          <section className="timeline">
+            <div className="title-wrapper">
+              <div className="icon-box">
+                <ion-icon name="book-outline" />
+              </div>
+              <h3 className="h3">Professional Skillset</h3>
+            </div>
+            <ol className="timeline-list">
+              {skills.map((skillCategory, index) => (
+                <li key={index} className="timeline-item">
+                  <h4 className="h4 timeline-item-title">{skillCategory.category}</h4>
+                  {skillCategory.skills.map((skill, idx) => (
+                    <span key={idx}>{skill}</span>
+                  ))}
+                </li>
+              ))}
+            </ol>
+          </section>
+        </header>
+      </article>
+    </>
   );
 }
 
-export default Resume
+export default Resume;

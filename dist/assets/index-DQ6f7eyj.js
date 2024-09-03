@@ -114,9 +114,15 @@ Error generating stack: `+o.message+`
 
 .styles-module_scrollContainer__-bJC8 {
   max-width: 100%;
-  overflow-x: auto;
-  overflow-y: hidden;
+  overflow-x: scroll; /* Keeps horizontal scroll functionality */
+  overflow-y: hidden; /* Hides vertical scrollbar */
+  scrollbar-width: none; /* Hides scrollbar in Firefox */
 }
+
+.styles-module_scrollContainer__-bJC8::-webkit-scrollbar {
+  display: none /* Hides scrollbar in Chrome, Safari, and Edge */
+}
+
 
 .styles-module_calendar__sT1ND {
   display: block; /* SVGs are inline-block by default */
