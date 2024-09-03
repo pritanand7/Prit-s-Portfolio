@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Portfolio1 from './assests/images/portfolio1.jpeg';
+import '../../assets/css/style.css'
 import Settlemint from './assests/images/settlemint.jpg';
 import DataPlay from './assests/images/DataPlay.jpg';
 
@@ -37,8 +38,8 @@ function Highlights() {
   );
 
   return (
-    <>
-      <header>
+    <div className='highlight'>
+      <header >
         <h2 className="h2 article-title">Highlights</h2>
       </header>
       <section className="projects">
@@ -113,7 +114,7 @@ function Highlights() {
           ))}
         </ul>
       </section>
-    </>
+    </div>
   );
 }
 
