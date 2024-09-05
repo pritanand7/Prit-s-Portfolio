@@ -11,7 +11,7 @@ Explore my journey through the realms of data, code, and creativity. This reposi
 
 
 ## 🚀 Getting Started
-Clone this repository to explore the code, or visit the live website here to see it in action!
+Clone this repository to explore the code, or visit the live website [here](https://core-prit.netlify.app/) to see it in action!
 
 ```bash
 
