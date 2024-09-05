@@ -3,6 +3,12 @@ import Portfolio1 from './assests/images/portfolio1.jpeg';
 import '../../assets/css/style.css'
 import Settlemint from './assests/images/settlemint.jpg';
 import DataPlay from './assests/images/DataPlay.jpg';
+import Azure from './assests/images/Azure.jpg';
+import SIH from './assests/images/SIH.jpeg';
+import Fiesta from './assests/images/fiesta.jpeg';
+import Messi from './assests/images/messi.jpg';
+import Google from './assests/images/google.jpeg';
+import Connect from './assests/images/connect.png';
 
 
 
@@ -16,8 +22,14 @@ function Highlights() {
                                             // Front-end Projects (HTML, CSS, JS):
       
 { id: 1, title: 'Yuva Manobal', category: 'projects', img: Portfolio1, link: 'https://yuva-manobal.netlify.app'},
-{ id: 2, title: 'Settlemint India Internship', category: 'achievements', img: Settlemint},
-{ id: 2, title: 'DataPlay Internship', category: 'achievements', img: DataPlay},
+{ id: 2, title: 'SettleMint India Internship...', category: 'achievements', img: Settlemint},
+{ id: 3, title: 'DataPlay Internship...', category: 'achievements', img: DataPlay},
+{ id: 4, title: "Attended Google Crowdsource Event and won some exciting goodies!", category: 'achievements', img: Google},
+{ id: 5, title: "Personalized Connection Page1", category: 'projects', img: Connect, link: "https://pritanand7.github.io/"},
+{ id: 6, title: 'Won a Microsoft Azure T-shirt in an Open Source quiz!', category: 'achievements', img: Azure},
+{ id: 7, title: "My Speech at Placement Fiesta'24 Mahotsav!", category: 'achievements', img: Fiesta},
+{ id: 8, title: 'SIH Hackathon 2023 :)', category: 'achievements', img: SIH},
+{ id: 9, title: "Lionel Messi Sketch using Turtle - Python", category: 'projects', img: Messi, link: "https://github.com/pritanand7/Sketch-Drawing-of-Messi-s-Face-Python"},
 
       //React Projects
 
