@@ -25,7 +25,7 @@ function Highlights() {
 { id: 2, title: 'SettleMint India Internship...', category: 'achievements', img: Settlemint},
 { id: 3, title: 'DataPlay Internship...', category: 'achievements', img: DataPlay},
 { id: 4, title: "Attended Google Crowdsource Event and won some exciting goodies!", category: 'achievements', img: Google},
-{ id: 5, title: "Personalized Connection Page1", category: 'projects', img: Connect, link: "https://pritanand7.github.io/"},
+{ id: 5, title: "Personalized Connection Page", category: 'projects', img: Connect, link: "https://pritanand7.github.io/"},
 { id: 6, title: 'Won a Microsoft Azure T-shirt in an Open Source quiz!', category: 'achievements', img: Azure},
 { id: 7, title: "My Speech at Placement Fiesta'24 Mahotsav!", category: 'achievements', img: Fiesta},
 { id: 8, title: 'SIH Hackathon 2023 :)', category: 'achievements', img: SIH},
