@@ -33,6 +33,6 @@ Here’s a quick look at what you'll find:
 - **Resume & Contact:** Easily access my resume and find ways to get in touch.
 
 ## 🚧 Coming Soon
-In the near future, expect a more advanced and visually refined version of the portfolio, featuring improved design elements for an enhanced user experience. Stay tuned for the Highlights section, where I’ll showcase my achievements and all the projects I’ve worked on!
+In the near future, expect a more advanced and visually refined version of the portfolio, featuring improved design elements for an enhanced user experience!
 
 <h2 align = "center"> Happy Learning ❤️ </h2>
