@@ -22,13 +22,13 @@ function Highlights() {
                                             // Front-end Projects (HTML, CSS, JS):
       
 { id: 1, title: 'Yuva Manobal', category: 'projects', img: Portfolio1, link: 'https://yuva-manobal.netlify.app'},
-{ id: 2, title: 'SettleMint India Internship...', category: 'achievements', img: Settlemint},
-{ id: 3, title: 'DataPlay Internship...', category: 'achievements', img: DataPlay},
-{ id: 4, title: "Attended Google Crowdsource Event and won some exciting goodies!", category: 'achievements', img: Google},
+{ id: 2, title: 'SettleMint India Internship...', category: 'achievements', img: Settlemint, link:'https://www.linkedin.com/posts/pritanand7_gratitude-learningexperience-mentorship-activity-7224767685270630400-hZ8U?utm_source=share&utm_medium=member_desktop'},
+{ id: 3, title: 'DataPlay Internship...', category: 'achievements', img: DataPlay, link:'https://www.linkedin.com/posts/pritanand7_internship-dataplay-datascience-activity-7213055503902392320-PGcp?utm_source=share&utm_medium=member_desktop'},
+{ id: 4, title: "Attended Google Crowdsource Event and won some exciting goodies!", category: 'achievements', img: Google, link:'https://www.linkedin.com/feed/update/urn:li:activity:7048672389450141696?utm_source=share&utm_medium=member_desktop'},
 { id: 5, title: "Personalized Connection Page", category: 'projects', img: Connect, link: "https://pritanand7.github.io/"},
-{ id: 6, title: 'Won a Microsoft Azure T-shirt in an Open Source quiz!', category: 'achievements', img: Azure},
-{ id: 7, title: "My Speech at Placement Fiesta'24 Mahotsav!", category: 'achievements', img: Fiesta},
-{ id: 8, title: 'SIH Hackathon 2023 :)', category: 'achievements', img: SIH},
+{ id: 6, title: 'Won a Microsoft Azure T-shirt in an Open Source quiz!', category: 'achievements', img: Azure, link:'https://www.linkedin.com/posts/pritanand7_opensource-hacktoberfest2022-jecrcuniversity-activity-7019974151012507648-17Op?utm_source=share&utm_medium=member_desktop'},
+{ id: 7, title: "My Speech at Placement Fiesta'24 Mahotsav!", category: 'achievements', img: Fiesta, link:'https://www.linkedin.com/posts/pritanand7_jecrcuniversity-placements-gratitude-activity-7143600458471813120-ZmxT?utm_source=share&utm_medium=member_desktop'},
+{ id: 8, title: 'SIH Hackathon 2023 :)', category: 'achievements', img: SIH, link:'https://www.linkedin.com/posts/pritanand7_smartindiahackathon-proudmoment-teamarise-activity-7111368930484469760-MQaR?utm_source=share&utm_medium=member_desktop'},
 { id: 9, title: "Lionel Messi Sketch using Turtle - Python", category: 'projects', img: Messi, link: "https://github.com/pritanand7/Sketch-Drawing-of-Messi-s-Face-Python"},
 
       //React Projects
