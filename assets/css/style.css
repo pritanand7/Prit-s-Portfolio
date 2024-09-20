@@ -124,7 +124,8 @@ a {
 
 }
 .highlight{
-  background: #A5A5A9;
+  background: rgb(199 200 204 / 81%);
+
   border: solid 1px black;
   border-radius: 25px;
   padding: 30px;
