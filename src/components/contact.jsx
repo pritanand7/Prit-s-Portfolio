@@ -40,7 +40,7 @@ const Contact = () => {
                 </p>
               </div>
 
-              <form action="https://formspree.io/f/xwkgkbjn" method="POST">
+              <form action="https://formspree.io/f/xkgwdnvo" method="POST">
                 <div className="form-floating mb-3">
                   <input
                     type="text"
