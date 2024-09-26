@@ -23,9 +23,7 @@ function Navbar() {
         </li>
         <li className="navbar-item">
           <button className="navbar-link" data-nav-link="">
-            <a href='https://forms.visme.co/formsPlayer/rx7kemrn-prit-039-s-portfolio-contact-form' target="_blank" rel="noopener noreferrer">
-              Contact
-            </a>
+            <Link to="/contact">Contact</Link>
           </button>
         </li>
       </ul>

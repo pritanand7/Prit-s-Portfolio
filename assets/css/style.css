@@ -43,6 +43,8 @@
     background-size: cover;
   }
 
+ 
+
   /* solid */
 
   --jet: hsl(0, 0%, 22%);
@@ -102,7 +104,10 @@
 }
 
 
-
+.contact-page {
+  margin: 0;  /* Ensure no margin is added globally */
+  padding: 20px; /* Apply padding only inside the contact-page */
+}
 
 
 /*-----------------------------------*\
@@ -118,14 +123,13 @@
 }
 
 a {
-  text-decoration: none;
-  color: rgb(199, 200, 204);
-  transition: transform 0.5s ease;
+  text-decoration: none !important;
+  color: rgb(199, 200, 204) !important;
+  transition: transform 0.5s ease !important;
 
 }
 .highlight{
   background: rgb(199 200 204 / 81%);
-
   border: solid 1px black;
   border-radius: 25px;
   padding: 30px;
@@ -164,6 +168,11 @@ button {
   border: none;
   text-align: left;
   cursor: pointer;
+  /* align-content: end; */
+  position: relative;
+  right: 0%;
+  /* left: 90%; */
+  padding: 4px;
 }
 
 input,
@@ -489,7 +498,7 @@ main {
 }
 
 .contact-info :is(.contact-link, time, address) {
-  color: var(--white-2);
+  color: var(--white-2)!important;
   font-size: var(--fs-7);
 }
 
@@ -507,8 +516,8 @@ main {
 }
 
 .social-item .social-link {
-  color: var(--light-gray-70);
-  font-size: 18px;
+  color: var(--light-gray-70) !important;
+  font-size: 18px !important;
 }
 
 
@@ -525,24 +534,24 @@ main {
 \*-----------------------------------*/
 
 .navbar {
-  position: fixed;
-  bottom: 0;
+  position: fixed !important;
+  bottom: 0 !important;
   left: 0;
-  width: 100%;
-  background: hsla(240, 1%, 17%, 0.75);
-  backdrop-filter: blur(10px);
-  border: 1px solid var(--jet);
-  border-radius: 12px 12px 0 0;
-  box-shadow: var(--shadow-2);
-  z-index: 5;
+  width: 100% !important;
+  background: hsla(240, 1%, 17%, 0.75) !important;
+  backdrop-filter: blur(10px) !important;
+  border: 1px solid var(--jet) !important;
+  border-radius: 12px 12px 0 0 !important;
+  box-shadow: var(--shadow-2) !important;
+  z-index: 5 !important;
 }
 
 .navbar-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  padding: 0 10px;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 0 10px !important;
 
 }
 
@@ -1597,15 +1606,15 @@ textarea.form-input::-webkit-resizer {
    */
 
   .navbar {
-    border-radius: 20px 20px 0 0;
+    border-radius: 20px 20px 0 0 !important;
   }
 
   .navbar-list {
-    gap: 20px;
+    gap: 20px !important;
   }
 
   .navbar-link {
-    --fs-8: 14px;
+    --fs-8: 14px !important;
   }
 
 
@@ -1878,7 +1887,7 @@ textarea.form-input::-webkit-resizer {
    */
 
   .navbar-link {
-    --fs-8: 15px;
+    --fs-8: 15px !important;
   }
 
 
@@ -2020,24 +2029,24 @@ textarea.form-input::-webkit-resizer {
    */
 
   .navbar {
-    position: absolute;
-    bottom: auto;
-    top: 0;
-    left: auto;
-    right: 0;
-    width: max-content;
-    border-radius: 0 20px;
-    padding: 0 20px;
-    box-shadow: none;
+    position: absolute !important;
+    bottom: auto !important;
+    top: 0 !important;
+    left: auto !important;
+    right: 0 !important;
+    width: max-content !important;
+    border-radius: 0 20px !important;
+    padding: 0 20px !important;
+    box-shadow: none !important;
   }
 
   .navbar-list {
-    gap: 30px;
-    padding: 0 20px;
+    gap: 30px !important;
+    padding: 0 20px !important;
   }
 
   .navbar-link {
-    font-weight: var(--fw-500);
+    font-weight: var(--fw-500) !important;
   }
 
 
