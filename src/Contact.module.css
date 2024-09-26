@@ -1,0 +1,42 @@
+.formContainer {
+    /* padding: 3rem 4rem; */
+    border-radius: 20px;
+  } 
+  
+   .header {
+    /* text-align: center;  */
+    color: #000000;
+  }
+
+  .para
+  {
+    font-size: large;
+    font-weight: 00;
+  }
+  
+  .btn {
+    background-color: #137afc;
+    border: 1px solid #137afc;
+    color: #fff;
+    border-radius: 8px;
+    transition: ease-out 0.4s;
+    align-items: end;
+  }
+  
+  .btn:hover {
+    color: #137afc;
+    background-color: #fff;
+  } 
+
+  .contact-page {
+    padding: 0; /* Ensure no extra padding is added */
+    margin: 0; /* Reset margin */
+  }
+  
+  /* Style the form fields, but don’t touch the layout */
+  .form-container {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+

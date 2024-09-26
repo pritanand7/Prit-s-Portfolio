@@ -6,7 +6,7 @@ import Navbar from './components/navbar';
 import About from './components/about';
 import Highlights from './components/highlights';
 import Resume from './components/resume';
-// import Slideshow from './components/slideshow'; // Uncomment if needed
+import Contact from './components/contact';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
             <Route path="/" element={<About />} />
             <Route path="/resume" element={<Resume />} />
             <Route path="/highlights" element={<Highlights />} />
-            {/* <Route path="/slideshow" element={<Slideshow />} /> */}
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
       </main>
