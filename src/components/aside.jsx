@@ -28,10 +28,6 @@ function Aside() {
 
 
       </div>
-      <button className="info_more-btn" data-sidebar-btn >
-        <span>Show Contacts</span>
-       
-      </button>
        <ul className="social-list">
         <li className="social-item">
           <a href="https://github.com/pritanand7" className="social-link" target='_blank'>
