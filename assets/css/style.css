@@ -2106,31 +2106,6 @@ textarea.form-input::-webkit-resizer {
 
 @media (min-width: 1250px) {
 
-  /**
-   * RESET
-   */
-
-  body::-webkit-scrollbar {
-    width: 10px;
-  }
-
-  body::-webkit-scrollbar-track {
-    background: var(--smoky-black);
-  }
-
-  body::-webkit-scrollbar-thumb {
-    border: 2px solid var(--smoky-black);
-    border-radius: 40px;
-    background: hsla(0, 0%, 100%, 0.15);
-    box-shadow: inset 1px 1px 0 hsla(0, 0%, 100%, 0.11),
-    inset -1px -1px 0 hsla(0, 0%, 100%, 0.11);
-  }
-  
-  body::-webkit-scrollbar-thumb:hover {
-    background: #C7C8CC;
-  }
-
-
 
 
 
