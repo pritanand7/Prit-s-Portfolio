@@ -1,4 +1,4 @@
-<h1 align = "center" >🌟 Prit's Portfolio Website </h1>
+<h1 align = "center" >🌟 Prit's Portfolio</h1>
 <h2><strong>Welcome to my Digital World!</strong></h2>
 Explore my journey through the realms of data, code, and creativity. This repository hosts the source code for my personal portfolio website, where I showcase my projects, skills, and passions. Dive in to know more about what drives me and how I contribute to the ever-evolving tech landscape.
 
