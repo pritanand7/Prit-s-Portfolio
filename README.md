@@ -19,9 +19,16 @@ git clone https://github.com/pritanand7/Prit-s-Portfolio.git
 ```
 
 ## 🔧 Tech Stack
-- **React.js:** Building dynamic and interactive user interfaces.
-- **Bootstrap:** Ensuring a responsive and modern layout.
-- **HTML5 & CSS3:** The foundation of the website's structure and design.
+<span><img alt="React" src="https://img.shields.io/badge/React-%23e4626b.svg?style=for-the-badge&logo=Flutter&logoColor=%23F7DF1E">
+<img alt="Bootstrap" src="https://img.shields.io/badge/bootstrap5-%23e4626b.svg?style=for-the-badge&logo=bootstrap&logoColor=%23F7DF1E">
+<img alt="Tailwind CSS" src="https://img.shields.io/badge/tailwind-%23e4626b.svg?style=for-the-badge&logo=css3&logoColor=%23F7DF1E"/>
+</span>
+<br>
+<span>
+<img alt="HTML5" src="https://img.shields.io/badge/html5-%23fca9ae.svg?style=for-the-badge&logo=html5&logoColor=140200"/>
+<img alt="CSS3" src="https://img.shields.io/badge/css3-%23ffd2ce.svg?style=for-the-badge&logo=css3&logoColor=140200"/>
+<img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23e4626b.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
+</span>
 
 ## 💡 Inspiration
 This website is not just a portfolio—it's a reflection of my passion for technology and creativity. Every section is crafted with care to represent who I am and what I do.
