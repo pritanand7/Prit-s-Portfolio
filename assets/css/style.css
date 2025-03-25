@@ -307,7 +307,7 @@ article.active {
   padding-bottom: 7px;
 }
 
-.article-title::after {
+/* .article-title::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -316,7 +316,7 @@ article.active {
   height: 3px;
   background: var(--text-gradient-yellow);
   border-radius: 3px;
-}
+} */
 
 .has-scrollbar::-webkit-scrollbar {
   width: 1px;
