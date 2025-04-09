@@ -5,7 +5,7 @@ export const aboutData = {
 
       "I believe in keeping things simple, staying open to learning, and improving a little every day. Whether I’m working on a project, trying out something new, or sharing what I know with others, I like being part of the process that leads to meaningful outcomes.",
       
-      "Outside of work, I enjoy connecting with people, staying updated with what’s happening in tech, and occasionally creating content to help others understand things a bit better too. "
+      "Outside of work, I enjoy connecting with people, staying updated with what’s happening in tech, and occasionally creating content to help others understand things a bit better too :) "
       
             
     ],
