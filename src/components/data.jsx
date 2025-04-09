@@ -67,7 +67,7 @@ export const aboutData = {
 
     key_skill: [
       {
-        core_skills: ['Team Collaboration','Community Engagement','Adaptability','Analytical Thinking','Attention to Detail','Time Management','Continuous Learning','Initiative & Supportive Collaboration','Creativity', 'Team Collaboration']
+        core_skills: ['Team Collaboration','Attention to Detail','Community Engagement','Adaptability','Creativity','Time Management','Continuous Learning']
 
           
          
