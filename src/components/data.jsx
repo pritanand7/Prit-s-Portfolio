@@ -51,28 +51,28 @@ export const aboutData = {
     ],
     education: [
       {
+        degree: 'Masters of Computer Application',
+        institution: 'Manipal University',
+        duration: '[2025 — Present]',
+        description: 'Completed a comprehensive program focusing on data science and analytics, gaining expertise in data analysis, visualization, and database management.'
+      },
+      {
         degree: 'BCA Specialization with Data Science & Data Analytics',
         institution: 'JECRC University',
         duration: '[2021 — 2024]',
         description: 'Completed a comprehensive program focusing on data science and analytics, gaining expertise in data analysis, visualization, and database management.'
       },
-      {
-        degree: 'Higher Secondary',
-        institution: 'B.V.B Vidyashram',
-        duration: '[2021]',
-        description: 'Studied core subjects in commerce, developing a strong foundation in business and economics.'
-      },
-      {
-        degree: 'High school',
-        institution: 'B.C.M Sr. Sec. School',
-        duration: '[2019]',
-        description: 'Completed foundational education with a focus on a broad range of subjects.'
-      }
+     
     ],
     skills: [
       {
-        category: 'Programming Language',
-        skills: ['C++ (Intermediate)', 'SQL (Intermediate)', 'Python (Intermediate)']
+        category: 'Programming Languages',
+        skills: ['Java','C/C++','Python','JavaScript','HTML/CSS']
+        
+      },
+      {
+        category: 'Operating Systems',
+        skills: ['Windows & Android OS [Expertise]', 'Intermediate Experience with Linux OS  [Arch Linux, Zorin, Ubuntu]','Experience with Android OS optimization, customization, and system architecture']
       },
       {
         category: 'Data Visualization Tools',
@@ -80,11 +80,15 @@ export const aboutData = {
       },
       {
         category: 'Developer Tools',
-        skills: ['Windows OS', 'Android OS', 'Linux OS', 'Git & Github', 'VS Code', 'Netlify']
+        skills: ['Git & Github', 'VS Code', 'MS Office Suite','Software Testing', 'Netlify']
+      },
+      {
+        category: 'Database Management Tools',
+        skills: ['MongoDB', 'MySQL',]
       },
       {
         category: 'Creative Tools',
-        skills: ['Video Editing', 'Adobe Photoshop']
+        skills: ['Video Editing', '10-Key Typing', 'Canva', 'Figma']
       }
     ]
   };
