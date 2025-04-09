@@ -1,8 +1,13 @@
 export const aboutData = {
     title: "About me",
     description: [
-      "Hello! I’m Prit Anand, a tech enthusiast driven by a passion for innovation and a knack for problem-solving. I specialize in identifying patterns in data and bringing fresh, creative ideas to life, especially within the Windows and Android ecosystems. My journey in technology is fueled by a deep curiosity and a commitment to staying at the forefront of emerging trends.",
-      "Beyond my professional work, I'm actively involved in the tech community. I’ve led projects like Yuva Manobal, which focuses on enhancing mental health and well-being, and participated in significant events like the Smart India Hackathon 2023 and HACKTOBER Fest 2024. Additionally, I share my knowledge through my YouTube channel, Burst Tech, where since 2019, I’ve been creating content that guides others on technology concepts, tips, and trends, helping them navigate the ever-evolving digital landscape."
+    "Hi, I’m Prit Anand — someone who’s genuinely curious about how technology works and how it can be used to make life better. I’ve always enjoyed exploring new tools, learning through hands-on experience, and figuring things out one step at a time. Over the years, that curiosity has grown into a strong interest in tech, especially in areas like cloud, data, and problem-solving.",
+
+      "I believe in keeping things simple, staying open to learning, and improving a little every day. Whether I’m working on a project, trying out something new, or sharing what I know with others, I like being part of the process that leads to meaningful outcomes.",
+      
+      "Outside of work, I enjoy connecting with people, staying updated with what’s happening in tech, and occasionally creating content to help others understand things a bit better too. "
+      
+            
     ],
     services: [
       {
