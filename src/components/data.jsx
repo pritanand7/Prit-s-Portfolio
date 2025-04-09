@@ -64,7 +64,13 @@ export const aboutData = {
       },
      
     ],
-    skills: [
+
+    key_skill: [
+      {
+        core_skills: ['Team Collaboration',' Problem Solving','Time Management','Adaptability','Attention to Detail','Analytical Thinking','Creativity']
+      }
+     ],
+      skills: [
       {
         category: 'Programming Languages',
         skills: ['Java','C/C++','Python','JavaScript','HTML/CSS']

@@ -3,7 +3,7 @@ import '../App.css';
 import { resumeData } from './data';
 
 function Resume() {
-  const { title, experience, education, skills } = resumeData;
+  const { title, experience, education, key_skill, skills } = resumeData;
 
   return (
     <>
@@ -45,8 +45,8 @@ function Resume() {
                 </li>
               ))}
             </ol>
-          </section>
-           {/* <section className="timeline">
+          </section> 
+          <section className="timeline">
             <div className="title-wrapper">
               <div className="icon-box">
                 <ion-icon name="book-outline" />
@@ -54,16 +54,15 @@ function Resume() {
               <h3 className="h3">Key Skills</h3>
             </div>
             <ol className="timeline-list">
-              {skills.map((skillCategory, index) => (
-                <li key={index} className="timeline-item">
-                  <h4 className="h4 timeline-item-title">{skillCategory.category}</h4>
-                  {skillCategory.skills.map((skill, idx) => (
-                    <span key={idx}>{skill}</span>
-                  ))}
-                </li>
-              ))}
+              {key_skill.map((key_skill, index) =>
+                key_skill.core_skills.map((skill, idx) => (
+                  <li key={`${index}-${idx}`} className="timeline-item">
+                    <h4 className="h4 timeline-item-title">{skill}</h4>
+                  </li>
+                ))
+              )}
             </ol>
-          </section> */}
+          </section>
           <section className="timeline">
             <div className="title-wrapper">
               <div className="icon-box">
