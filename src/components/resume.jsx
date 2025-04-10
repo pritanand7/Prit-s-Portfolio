@@ -10,7 +10,7 @@ function Resume() {
       <article className="about active">
         <header>
           <h2 className="h2 article-title">{title}</h2>
-          <section className="timeline">
+          {/* <section className="timeline">
             <div className="title-wrapper">
               <div className="icon-box">
                 <ion-icon name="book-outline" />
@@ -27,7 +27,7 @@ function Resume() {
                 </li>
               ))}
             </ol>
-          </section>
+          </section> */}
           <section className="timeline">
             <div className="title-wrapper">
               <div className="icon-box">
