@@ -15,6 +15,24 @@ function Resume() {
               <div className="icon-box">
                 <ion-icon name="book-outline" />
               </div>
+              <h3 className="h3">Work Experience</h3>
+            </div>
+            <ol className="timeline-list">
+              {working_experience.map((working_experience, index) => (
+                <li key={index} className="timeline-item">
+                  <h4 className="h4 timeline-item-title">
+                    {working_experience.role} <span><strong>{working_experience.company}</strong></span>
+                  </h4>
+                  <span>{working_experience.duration}</span>
+                </li>
+              ))}
+            </ol>
+          </section>
+          <section className="timeline">
+            <div className="title-wrapper">
+              <div className="icon-box">
+                <ion-icon name="book-outline" />
+              </div>
               <h3 className="h3">Industrial Trainings</h3>
             </div>
             <ol className="timeline-list">

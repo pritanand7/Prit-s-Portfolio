@@ -35,6 +35,12 @@ export const aboutData = {
   
   export const resumeData = {
     title: "Resume",
+
+    working_experience: [
+      {
+        role: 'Associate Software Engineer',
+        company: 'Accenture'
+      }],
     experience: [
       {
         role: 'Project Intern',
