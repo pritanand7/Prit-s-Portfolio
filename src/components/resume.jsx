@@ -15,7 +15,7 @@ function Resume() {
               <div className="icon-box">
                 <ion-icon name="book-outline" />
               </div>
-              <h3 className="h3">Experience</h3>
+              <h3 className="h3">Industrial Trainings</h3>
             </div>
             <ol className="timeline-list">
               {experience.map((item, index) => (
