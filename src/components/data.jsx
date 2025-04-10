@@ -54,7 +54,7 @@ export const aboutData = {
         degree: 'Masters of Computer Application',
         institution: 'Manipal University',
         duration: '[2025 — Present]',
-        description: 'Completed a comprehensive program focusing on data science and analytics, gaining expertise in data analysis, visualization, and database management.'
+        description: 'Currently pursuing a postgraduate program with a focus on advanced computing, exploring areas like software development, cloud infrastructure, and modern IT solutions.'
       },
       {
         degree: 'BCA Specialization with Data Science & Data Analytics',
