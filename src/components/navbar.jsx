@@ -13,12 +13,12 @@ function Navbar() {
         </li>
         <li className="navbar-item">
           <button className="navbar-link" data-nav-link="">
-            <Link to="/resume">Resume</Link>
+            <Link to="/highlights">Highlights</Link>
           </button>
         </li>
         <li className="navbar-item">
           <button className="navbar-link" data-nav-link="">
-            <Link to="/highlights">Highlights</Link>
+            <Link to="/resume">Resume</Link>
           </button>
         </li>
         <li className="navbar-item">

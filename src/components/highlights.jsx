@@ -23,11 +23,11 @@ function Highlights() {
       
 { id: 1, title: 'Yuva Manobal', category: 'projects', img: Portfolio1, link: 'https://yuva-manobal.netlify.app'},
 
-{ id: 2, title: 'SettleMint India Internship...', category: 'achievements', img: Settlemint, link:'https://www.linkedin.com/posts/pritanand7_gratitude-learningexperience-mentorship-activity-7224767685270630400-hZ8U?utm_source=share&utm_medium=member_desktop'},
+{ id: 2, title: 'SettleMint India Internship...', category: 'others', img: Settlemint, link:'https://www.linkedin.com/posts/pritanand7_gratitude-learningexperience-mentorship-activity-7224767685270630400-hZ8U?utm_source=share&utm_medium=member_desktop'},
 
-{ id: 3, title: 'DataPlay Internship...', category: 'achievements', img: DataPlay, link:'https://www.linkedin.com/posts/pritanand7_internship-dataplay-datascience-activity-7213055503902392320-PGcp?utm_source=share&utm_medium=member_desktop'},
+{ id: 3, title: 'DataPlay Internship...', category: 'others', img: DataPlay, link:'https://www.linkedin.com/posts/pritanand7_internship-dataplay-datascience-activity-7213055503902392320-PGcp?utm_source=share&utm_medium=member_desktop'},
 
-{ id: 4, title: "Attended Google Crowdsource Event and won some exciting goodies!", category: 'achievements', img: Google, link:'https://www.linkedin.com/feed/update/urn:li:activity:7048672389450141696?utm_source=share&utm_medium=member_desktop'},
+{ id: 4, title: "Won some exciting Goodies at Google CrowdSource Event!", category: 'achievements', img: Google, link:'https://www.linkedin.com/feed/update/urn:li:activity:7048672389450141696?utm_source=share&utm_medium=member_desktop'},
 
 { id: 5, title: "Personalized Connection Page", category: 'projects', img: Connect, link: "https://pritanand7.github.io/"},
 
