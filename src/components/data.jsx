@@ -39,13 +39,13 @@ export const aboutData = {
       {
         role: 'Project Intern',
         company: 'Settlemint India',
-        duration: 'May — July',
+        duration: 'May — July [2024]',
         description: 'Contributed to the Jharkhand PDMC project working as a technical cell support for the agriculture sector drafting SOP, offering implementation ideas and solutions to enhance the PDMC portal, gaining valuable experience in project management and data analysis.'
       },
       {
         role: 'Data Science Intern',
         company: 'DataPlay',
-        duration: 'March — June',
+        duration: 'March — June [2024]',
         description: 'Developed skills in SQL, Excel, and Power BI through hands-on projects. Conducted comprehensive Customer Behaviour Analysis to identify trends and insights. Created visualizations and reports to effectively communicate findings.'
       }
     ],
