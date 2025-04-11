@@ -36,11 +36,13 @@ export const aboutData = {
   export const resumeData = {
     title: "Resume",
 
-    working_experience: [
+    job: [
       {
-        role: 'Associate Software Engineer',
-        company: 'Accenture'
+        rolee: 'Associate Software Engineer',
+        companyy: 'Accenture',
+        descriptionn: 'As an ASE, I contribute to designing, developing, and optimizing applications while ensuring performance, security, and scalability. I work with cloud technologies, databases, and DevOps tools to build efficient solutions. Collaborating with cross-functional teams, I focus on system integration, troubleshooting, and implementing best coding practices to deliver high-quality software.'
       }],
+    // Add more work experience here if needed
     experience: [
       {
         role: 'Project Intern',

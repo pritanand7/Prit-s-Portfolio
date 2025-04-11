@@ -3,35 +3,34 @@ import '../App.css';
 import { resumeData } from './data';
 
 function Resume() {
-  const { title, experience, education, key_skill, skills } = resumeData;
+  const { title, job, experience, education, key_skill, skills } = resumeData;
 
   return (
     <>
       <article className="about active">
         <header>
           <h2 className="h2 article-title">{title}</h2>
-          {/* <section className="timeline">
+          <section className="timeline">
             <div className="title-wrapper">
               <div className="icon-box">
-                <ion-icon name="book-outline" />
+                <ion-icon name="business-outline" />
               </div>
               <h3 className="h3">Work Experience</h3>
             </div>
             <ol className="timeline-list">
-              {working_experience.map((working_experience, index) => (
+              {job.map((item, index) => (
                 <li key={index} className="timeline-item">
-                  <h4 className="h4 timeline-item-title">
-                    {working_experience.role} <span><strong>{working_experience.company}</strong></span>
-                  </h4>
-                  <span>{working_experience.duration}</span>
+                  <h4 className="h4 timeline-item-title">{item.rolee}</h4>
+                  <span><h4>{item.companyy}</h4></span>
+                  <p className="timeline-text">{item.descriptionn}</p>
                 </li>
               ))}
             </ol>
-          </section> */}
+          </section> 
           <section className="timeline">
             <div className="title-wrapper">
               <div className="icon-box">
-                <ion-icon name="book-outline" />
+                <ion-icon name="folder-outline" />
               </div>
               <h3 className="h3">Industrial Trainings</h3>
             </div>
@@ -67,7 +66,7 @@ function Resume() {
           <section className="timeline">
             <div className="title-wrapper">
               <div className="icon-box">
-                <ion-icon name="book-outline" />
+                <ion-icon name="reorder-four-outline" />
               </div>
               <h3 className="h3">Key Skills</h3>
             </div>
@@ -84,7 +83,7 @@ function Resume() {
           <section className="timeline">
             <div className="title-wrapper">
               <div className="icon-box">
-                <ion-icon name="book-outline" />
+                <ion-icon name="cloudy-outline" />
               </div>
               <h3 className="h3">Technical Skillset</h3>
             </div>
