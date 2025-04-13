@@ -3,6 +3,7 @@ import analysis from './assests/images/analysis.png'
 import creator from './assests/images/creator.png'
 import leadership from './assests/images/leadership.png'
 import community from './assests/images/community.png'
+import happy from './assests/images/happy.png'
 import '../App.css'
 import Github from './github'
 import { aboutData } from './data';
@@ -15,8 +16,8 @@ function About() {
     'analysis.png': analysis,
     'creator.png': creator,
     'leadership.png': leadership,
-    'community.png': community
-  };
+    'community.png': community,
+    'happy.png': happy,};
 
   return (
     <>

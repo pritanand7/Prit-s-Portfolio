@@ -11,7 +11,7 @@ export const aboutData = {
     ],
     services: [
       {
-        icon: 'analysis.png',
+        icon: 'happy.png',
         title: 'Personal Growth & Continuous Learning:',
         description: 'Driven by a belief in holistic growth, constantly exploring new technologies and innovative solutions to enhance skill sets. Embracing challenges that foster not only professional growth but also a deeper, holistic evolution of mind and body.'
       },
