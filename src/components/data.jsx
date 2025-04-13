@@ -12,8 +12,8 @@ export const aboutData = {
     services: [
       {
         icon: 'analysis.png',
-        title: 'Data Analysis & Visualization',
-        description: 'Transforming raw data into meaningful insights through advanced data analysis and visualization techniques. I specialize in creating interactive dashboards and reports that help organizations make data-driven decisions and stay ahead in their industry.'
+        title: 'Continuous Improvement & Innovation:',
+        description: 'Constantly exploring new technologies and innovative solutions to enhance my skill set. I’m passionate about finding ways to improve processes, integrate automation, and stay ahead of tech trends. Whether through building new functionality or optimizing existing systems, I focus on creating impactful solutions that drive efficiency and performance.'
       },
       {
         icon: 'creator.png',
