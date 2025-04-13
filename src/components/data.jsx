@@ -12,8 +12,8 @@ export const aboutData = {
     services: [
       {
         icon: 'analysis.png',
-        title: 'Continuous Improvement & Innovation:',
-        description: 'Constantly exploring new technologies and innovative solutions to enhance my skill set. I’m passionate about finding ways to improve processes, integrate automation, and stay ahead of tech trends. Whether through building new functionality or optimizing existing systems, I focus on creating impactful solutions that drive efficiency and performance.'
+        title: 'Personal Growth & Continuous Learning:',
+        description: 'Driven by a belief in holistic growth, constantly exploring new technologies and innovative solutions to enhance skill sets. Passionate about improving processes, integrating automation, and staying ahead of tech trends. Embracing challenges that foster not only professional growth but also a deeper, holistic evolution of mind and body.'
       },
       {
         icon: 'creator.png',
