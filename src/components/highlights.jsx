@@ -39,11 +39,11 @@ function Highlights() {
 
 { id: 9, title: "Lionel Messi Sketch using Turtle - Python", category: 'projects', img: Messi, link: "https://github.com/pritanand7/Sketch-Drawing-of-Messi-s-Face-Python"},
 
-{ id: 10, title: "I'm Graduated!", category: 'achievements', img: 'https://media.licdn.com/dms/image/v2/D5622AQH4NuproJ8yiw/feedshare-shrink_1280/B56ZQ_c0joHIAk-/0/1736231309617?e=1747267200&v=beta&t=6iiAmLEugkASwIdyM6Eh33YKTvtuVO099Un9Twyymlk', link: "https://www.linkedin.com/feed/update/urn:li:activity:7282281935932956674/"},
+{ id: 10, title: "I'm Graduated!", category: 'achievements', img: 'https://media.licdn.com/dms/image/v2/D5622AQH4NuproJ8yiw/feedshare-shrink_800/B56ZQ_c0joHIAg-/0/1736231309606?e=1785974400&v=beta&t=7UQkpqUoUg8P7X-qp-p_Oa_AyDnYHXZMryUzwwh0Jm0', link: "https://www.linkedin.com/feed/update/urn:li:activity:7282281935932956674/"},
 
-{ id: 11, title: "Stepping Into the Masters Journey Path", category: 'others', img: 'https://media.licdn.com/dms/image/v2/D5622AQGNvby_1VFwBg/feedshare-shrink_1280/B56ZRodwqYGQAo-/0/1736919428566?e=1747267200&v=beta&t=HxA5O3mj524SERbmZLw5Bsb6RUN6N8kkhYAWTq829dA', link: "https://www.linkedin.com/feed/update/urn:li:activity:7285168117096312833/"},
+{ id: 11, title: "Stepping Into the Masters Journey Path", category: 'others', img: 'https://media.licdn.com/dms/image/v2/D5622AQGNvby_1VFwBg/feedshare-shrink_800/B56ZRodwqYGQAk-/0/1736919428566?e=1785974400&v=beta&t=CQk6u7S5FOZSrtry6nuDAQyaOUZaTASLGMJe6HDblLw', link: "https://www.linkedin.com/feed/update/urn:li:activity:7285168117096312833/"},
 
-{ id: 12, title: "From Campus to Corporate - Hello Accenture :)", category: 'achievements', img: 'https://media.licdn.com/dms/image/v2/D5622AQH021zhd7LyAA/feedshare-shrink_800/B56ZVB4H7THEAg-/0/1740566994384?e=1747267200&v=beta&t=cHao24Q6INkKWhoSgS9YrhbVjJcZPNvXp_JbiJqpX_k', link: "https://www.linkedin.com/feed/update/urn:li:activity:7300467142330617857/"},
+{ id: 12, title: "From Campus to Corporate - Hello Accenture :)", category: 'achievements', img: 'https://media.licdn.com/dms/image/v2/D5622AQH021zhd7LyAA/feedshare-shrink_800/B56ZVB4H7THEAg-/0/1740566994384?e=1785974400&v=beta&t=-faEeHPZDk1j9tnSxoXgLjXWcxahRtNWwrDljRcKud0', link: "https://www.linkedin.com/feed/update/urn:li:activity:7300467142330617857/"},
 
       //React Projects
 
